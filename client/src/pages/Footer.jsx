@@ -8,12 +8,12 @@ export const Footer = () => {
       <div className="max-w-[1360px] m-auto pt-8 pb-6 px-5">
         <div className="w-full flex justify-center items-center gap-10">
           <Link
-            to={"https://www.linkedin.com/in/vikram-kumar-choudhary/"}
+            to={"https://www.linkedin.com/in/shivam-tiwariiii/"}
             target="_blank"
           >
             <FaLinkedin className="text-white text-2xl md:text-3xl cursor-pointer" />
           </Link>
-          <Link to={"https://github.com/vikram0104irctc"} target="_blank">
+          <Link to={"https://github.com/shivamtiwari9118"} target="_blank">
             <FaGithub className="text-white text-2xl md:text-3xl cursor-pointer" />
           </Link>
           <FaYoutube className="text-white text-2xl md:text-3xl cursor-pointer" />
@@ -42,7 +42,7 @@ export const Footer = () => {
       </div>
       <div className="w-full bg-[#1ba0e2] border-t-[2px] border-gray-300">
         <h2 className="text-white text-center p-[1px] text-sm">
-          Designed by Vikram © 2024. All rights reserved.
+          Designed by Shivam © 2024. All rights reserved.
         </h2>
       </div>
     </div>
