@@ -25,6 +25,10 @@ app.use("/cities", cityRoute);
 app.use("/generateitinerary", itineraryRoute);
 
 const port = 3000;
+const connectDB = require('./config/db');
+connectDB();
+
+
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
